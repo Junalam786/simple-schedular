@@ -1,0 +1,137 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #1371c8;
+    margin: 0;
+    padding: 1px;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 33%;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .search {
+    margin-right: 1px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0e5291;
+    color: #ffffff;
+    font-size: 12px;
+    width: 178px;
+    height: 31px;
+    font-size: 15px;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .left-side {
+    margin-left: 26px;
+  }
+  
+  .contents {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contents li {
+    margin: 14px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .contents li a {
+    margin: 0 7px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  .contents li:last-child {
+    margin-right: 0;
+  }
+  
+  .cta {
+    margin-left: 10px;
+  }
+  
+  .btn {
+    padding: 11px 23px;
+    background-color: #080a08;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s !important;
+    margin-right: 32px;
+    margin-left: 32px;
+    font-size: 12px;
+    background-color: #ff7a5c;
+    border-color: #ff7a5c;
+  }
+  
+  /* Media Queries for Tablet */
+  @media only screen and (max-width: 768px) {
+    .left-side {
+      margin-left: 10px;
+    }
+    .right-side {
+      margin-right: 10px;
+    }
+    .logo {
+      max-width: 25%;
+    }
+    .search {
+      width: 120px;
+      height: 25px;
+    }
+    .contents li {
+      font-size: 16px;
+      margin: 10px;
+    }
+    .btn {
+      margin-right: 10px;
+      margin-left: 10px;
+      font-size: 10px;
+    }
+  }
+  
+  /* Media Queries for Mobile */
+  @media only screen and (max-width: 480px) {
+    .left-side,
+    .right-side {
+      margin: 5px;
+    }
+    .logo {
+      display: none;
+    }
+    .search {
+      width: 100px;
+      height: 20px;
+      font-size: 10px;
+    }
+    .contents li {
+      font-size: 14px;
+      margin: 5px;
+    }
+    .btn {
+      margin-right: 5px;
+      margin-left: 5px;
+      font-size: 8px;
+    }
+  }
+  

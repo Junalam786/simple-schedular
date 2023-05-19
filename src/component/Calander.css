@@ -1,0 +1,37 @@
+
+.fc-day {
+    height: 130px;
+    width: 120px;
+    background-color: #ffffff;
+  }
+
+  .fc-daygrid-day{
+    height: 65px;
+    width: 21px;
+  }
+  
+  .fc-event {
+    background-color: #cdd5d9;
+    border-color: #0074D9;
+    color: #384349;
+  }
+  .fc-daygrid-event, .fc-timegrid-event {
+    font-size: 10px;
+  }
+  
+  .fc-daygrid-day-events {
+    padding-top: 3px;
+  }
+ 
+  .fc-toolbar-title {
+    font-size: 16px;
+  }
+
+  .fc-toolbar-chunk div {
+    font-size: 11px;
+    background-color: #ffffff !important;
+  }
+
+
+ 
+ 

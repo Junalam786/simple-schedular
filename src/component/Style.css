@@ -1,0 +1,141 @@
+.popup-container {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-container form {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    height: 70%;
+    min-height: 350px;
+    min-width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #999;
+}
+  
+  .popup-form h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+  }
+  
+  .c-appointment {
+   
+    margin-left: 15px;
+    width:100%;
+  }
+  .checkbox-display{
+    display: inline;
+    width: 30%;
+    margin-left: 80px;
+  }
+  .minute{
+    display: inline;
+    width: 10%;
+    margin: 0px 1px;
+  }
+  .popup-form input[type='text'][placeholder="Client Name"]{
+    display: inline;
+    width: 85%;
+    margin-bottom: 1em;
+    margin: 11px ;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #999;
+  }
+  .popup-form input[type='number'][placeholder="Duration"]{
+    display: inline;
+    width: 34%; 
+    margin: 2px 10px 2px 2px;
+    padding: 7PX;
+    font-size: 1em;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #999;
+
+  }
+  
+  .popup-form input[type='time'] {
+    display: inline;
+    width: 37%;
+    margin: 2px 2px 2px 10px; 
+    padding: 7PX;
+    font-size: 1em;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #999;
+    transition: border-bottom-color 0.3s ease-in-out;
+
+  }
+  
+  .popup-form input[type='number'][placeholder="Cost"]{
+    display: inline;
+    width: 85%;
+    margin: 13px 2px 5px 9px; 
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #999;
+    transition: border-bottom-color 0.3s ease-in-out;
+
+  }
+  
+  .popup-form input[type='submit'],
+  .popup-form button {
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: #fff;
+    margin: 20px 2px 5px 9px; 
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-right: 1em;
+  }
+  
+  .popup-form label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  .popup-form .submitho{
+    width: 20%;
+    height: auto;
+    font-size: 29;
+    background-color: #1371c8;;
+  }
+   .popup-form .closeho {
+   width: 20%;
+    height: 34px;
+    font-size: small;
+    cursor: pointer;
+    color: #333;
+    background-color: #f2f2f2;;
+  } 
+  .button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 23px;
+  }
+  .popup-form .closeho:hover{
+    cursor: pointer;
+    background-color: #cccccce3;
+  }
+  .popup-form .submitho:hover{
+    cursor: pointer;
+    background-color: #0458a7;
+  }
+ 
+   
